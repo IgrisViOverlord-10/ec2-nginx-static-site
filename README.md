@@ -74,5 +74,19 @@ Client → Internet → Security Group → EC2 Instance → Nginx → index.html
 
 ## 📂 Project Files
 
-- index.html – Static website file  
-- README.md – Project documentation  
+- `index.html` – Static website file  
+- `README.md` – Project documentation  
+
+---
+
+### 📸 Snapshots include:
+
+- Deployed website output  
+- EC2 instance configuration  
+- Ubuntu terminal with command execution  
+- Default Nginx Page  
+- GitHub Repository  
+
+( Snapshots available in `Snapshots - 1.pdf` )
+
+---
