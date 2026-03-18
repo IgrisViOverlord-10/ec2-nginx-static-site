@@ -83,10 +83,10 @@ Client → Internet → Security Group → EC2 Instance → Nginx → index.html
 
 - Deployed website output  
 - EC2 instance configuration  
-- Ubuntu terminal with command execution  
-
-> **Disclaimer:** The repository was renamed so the clone URL may be different from earlier versions. Only the `index.html` file is used for deployment and the remaining files are removed before configuring Nginx.
+- Ubuntu terminal with command execution
 
 ( Snapshots available in `Snapshots - 1.pdf` )
+
+> **Disclaimer:** The repository was renamed so the clone URL may be different from earlier versions. Only the `index.html` file is used for deployment and the remaining files are removed before configuring Nginx.
 
 ---
