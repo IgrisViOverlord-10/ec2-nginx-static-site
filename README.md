@@ -72,10 +72,13 @@ Client → Internet → Security Group → EC2 Instance → Nginx → index.html
 
 ---
 
-## 📂 Project Files
+## 📂 Repository Files
 
 - `index.html` – Static website file  
 - `README.md` – Project documentation  
+- `Snapshots - 1.pdf` – Project snapshots  
+
+> **Disclaimer:** The repository was renamed so the clone URL may be different from earlier versions. Only the `index.html` file is used for deployment and the remaining files are removed before configuring Nginx.
 
 ---
 
@@ -83,10 +86,8 @@ Client → Internet → Security Group → EC2 Instance → Nginx → index.html
 
 - Deployed website output  
 - EC2 instance configuration  
-- Ubuntu terminal with command execution
+- Ubuntu terminal with command execution  
 
-( Snapshots available in `Snapshots - 1.pdf` )
-
-> **Disclaimer:** The repository was renamed so the clone URL may be different from earlier versions. Only the `index.html` file is used for deployment and the remaining files are removed before configuring Nginx.
+Snapshots available in `Snapshots - 1.pdf`
 
 ---
