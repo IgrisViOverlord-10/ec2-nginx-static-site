@@ -2,19 +2,14 @@
 
 ## 📌 What I Built
 
-This project demonstrates static website hosting on an Ubuntu-based Amazon EC2 instance using Nginx as the web server.
-Instead of serverless hosting (like S3), this implementation provisions compute infrastructure and follows a version-controlled Git deployment workflow, representing a traditional single-tier web architecture.
+This project demonstrates static website hosting on an Ubuntu-based Amazon EC2 instance using Nginx as the web server.  
+Unlike serverless hosting (like S3), this implementation provisions compute infrastructure and follows a version-controlled Git deployment workflow, representing a traditional single-tier web architecture.
 
 ---
 
 ## 🏗 Architecture Flow
 
-Client → Internet → Security Group → EC2 Instance → Nginx → index.html
-
-- Amazon EC2 provides compute infrastructure  
-- Security Group controls inbound access (SSH 22, HTTP 80)  
-- Nginx serves static content from `/var/www/html`  
-- Git manages version-controlled deployment  
+Client → Internet → Security Group → EC2 Instance → Nginx → index.html  
 
 ---
 
@@ -38,6 +33,18 @@ Client → Internet → Security Group → EC2 Instance → Nginx → index.html
 - Copied files to `/var/www/html`
 - Restarted Nginx service
 - Verified deployment using public IP
+
+---
+
+## 🔍 Alternative Methods Explored
+
+To compare different deployment approaches, I also tested:
+
+- **SCP** – Securely transfers files from local machine to EC2  
+- **wget** – Downloads project files directly from a remote source  
+- **nano** – Allows direct editing of files on the server  
+
+Each method highlights trade-offs between speed, control, and maintainability compared to a Git-based workflow.
 
 ---
 
@@ -66,7 +73,7 @@ Client → Internet → Security Group → EC2 Instance → Nginx → index.html
 ## 🚀 Key Outcome
 
 - Successfully deployed static website on compute-based infrastructure  
-- Implemented version-controlled deployment workflow  
+- Implemented version-controlled deployment workflow reducing manual deployment effort  
 - Gained hands-on experience with Linux server management  
 - Compared server-based hosting vs serverless (S3) approaches  
 
