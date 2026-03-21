@@ -71,6 +71,15 @@ These approaches highlight trade-offs between speed, control, and maintainabilit
 
 ---
 
+## ⚠️ Limitations
+
+- Single EC2 instance setup (no horizontal scaling)  
+- No load balancing, which can lead to a single point of failure  
+- Manual scaling required to handle increased traffic  
+- No CDN integration, resulting in higher latency for geographically distant users  
+
+---
+
 ## 🚀 Key Outcome
 
 - Successfully deployed static website on compute-based infrastructure  
