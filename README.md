@@ -7,6 +7,11 @@ Unlike serverless hosting (such as S3), this implementation provisions compute i
 
 ---
 
+## 💻 Tech Stack
+Amazon EC2, Ubuntu, Nginx, Git
+
+---
+
 ## 🏗 Architecture Flow
 
 Client → Internet → Security Group → EC2 Instance → Nginx → `index.html`
