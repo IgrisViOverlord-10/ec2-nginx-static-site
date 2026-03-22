@@ -1,8 +1,7 @@
 # ☁️ Static Website Hosting using Amazon EC2, Nginx & Git
 
 ## 📌 Project Overview
-This project demonstrates static website hosting on an Ubuntu-based Amazon EC2 instance using Nginx as the web server.  
-Unlike serverless hosting (S3), this implementation provisions compute infrastructure and follows a version-controlled Git deployment workflow, representing a traditional single-tier architecture.
+This project demonstrates static website hosting on an Ubuntu-based Amazon EC2 instance using Nginx as the web server. Unlike serverless hosting (S3), this implementation provisions compute infrastructure and follows a version-controlled Git deployment workflow, representing a traditional single-tier architecture.
 
 ## 💻 Tech Stack
 Amazon EC2, Ubuntu 22.04, Nginx, Git
